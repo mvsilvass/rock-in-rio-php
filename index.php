@@ -36,18 +36,31 @@ $cor_fundo = isset($_COOKIE['cor_fundo']) ? $_COOKIE['cor_fundo'] : '#ffffff';
             margin-bottom: 20px;
             width: 50%;
         }
+        .content h1{
+            font-size: 40px;
+        }
+        .content p{
+            text-align: justify;
+            font-size: 25px;
+        }
+
         form {
             display: flex;
             flex-direction: column;
             align-items: center;
         }
+        label{
+            font-size: 40px;
+        }
         input[type="color"] {
-            width: 20px;
-            height: 25px;
+            width: 30px;
+            height: 35px;
             border: none;
+            outline: none;
             padding: 0;
             cursor: pointer;
-            margin-bottom: 10px;
+            margin-bottom: 8px;
+            margin-left: 20px;
         }
         button {
             padding: 10px 20px;
