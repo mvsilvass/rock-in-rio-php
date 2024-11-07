@@ -61,12 +61,16 @@ $cor_fundo = isset($_COOKIE['cor_fundo']) ? $_COOKIE['cor_fundo'] : '#ffffff';
             cursor: pointer;
             margin-bottom: 8px;
             margin-left: 20px;
+            border-radius: 10px;
         }
         button {
-            padding: 10px 20px;
+            background-color: #C5D3E8;
+            margin-top: 20px;
+            padding: 10px 30px;
             font-weight: bold;
+            border-radius: 10px;
             border: none;
-            font-size: 16px;
+            font-size: 20px;
             cursor: pointer;
             transition: background-color 0.3s ease;
         }
